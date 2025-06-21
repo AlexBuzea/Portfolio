@@ -1,137 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Personal Portofolio - Alex Buzea</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body class="bg-light">
-    <!-- navbar start -->
+<head>
+  <title>Personal Portofolio - Alex Buzea</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <!-- <nav class="navbar navbar-light fixed-top shadow-sm bg-light">
-    <div class="container-lg"> -->
-    <!-- <a class="navbar-brand text-purple fw-bold fs-4" href="#">A.B.</a> -->
-    <!-- 
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="" width="125" height="65">
-      </a>
-      <div class="dropdown">
-        <button class="btn btn-secondary bg-purple px-3" type="button" id="dropdownMenuButton1"
-          data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fas fa-bars"></i>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#home">Home</a></li>
-          <li><a class="dropdown-item" href="#about">About</a></li>
-          <li><a class="dropdown-item" href="#services">Services</a></li>
-          <li><a class="dropdown-item" href="#portofolio">Portfolio</a></li>
-          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
-          <li><a class="dropdown-item" href="#contact">Contact</a></li>
-        </ul>
+<body class="bg-light">
+
+  <nav class="shadow-sm sticky-top">
+    <a class="navbar-brand px-3" href="#">
+      <img src="img/logo.png" alt="" width="140" height="70" />
+    </a>
+    <ul class="nav-menu">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#recommendations">Recommendations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+
+  <!-- home section start -->
+  <section class="home py-5 bg-light" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-img text-center">
+            <img src="img/profile.png" class="rounded-circle mw-100" alt="profile image" />
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm a</p>
+            <!-- <h1 class="text-purple text-uppercase fs-1 fw-bold ">Web Developerr</h1> -->
+
+            <h1 class="typed-text-output d-inline font-weight-lighter text-purple fs-1 fw-bold"></h1>
+            <div class="typed-text d-none">
+              Web Developer, Front End Developer
+            </div>
+
+            <h2 class="fs-4 mt-2">Alex Buzea</h2>
+            <p class="mt-4 text-muted">
+              A Web Developer living in London, United Kingdom. Motivated to
+              learn more about upcoming tech every day.
+            </p>
+            <a href="#portfolio" class="btn px-3 mt-3">My Work</a>
+          </div>
+        </div>
       </div>
     </div>
-  </nav> -->
-    <!-- navbar end -->
+  </section>
+  <!-- home section end -->
 
-    <nav class="shadow-sm sticky-top">
-      <a class="navbar-brand px-3" href="#">
-        <img src="img/logo.png" alt="" width="140" height="70" />
-      </a>
-      <ul class="nav-menu">
-        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#recommendations">Recommendations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-    </nav>
-
-    <!-- home section start -->
-    <section class="home py-5 bg-light" id="home">
-      <div class="container-lg">
-        <div class="row min-vh-100 align-items-center align-content-center">
-          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-            <div class="home-img text-center">
-              <img
-                src="img/profile.png"
-                class="rounded-circle mw-100"
-                alt="profile image"
-              />
-            </div>
-          </div>
-          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
-            <div class="home-text">
-              <p class="text-muted mb-1">Hello I'm a</p>
-              <!-- <h1 class="text-purple text-uppercase fs-1 fw-bold ">Web Developerr</h1> -->
-
-              <h1
-                class="typed-text-output d-inline font-weight-lighter text-purple fs-1 fw-bold"
-              ></h1>
-              <div class="typed-text d-none">
-                Web Developer, Front End Developer
-              </div>
-
-              <h2 class="fs-4 mt-2">Alex Buzea</h2>
-              <p class="mt-4 text-muted">
-                A Web Developer living in London, United Kingdom. Motivated to
-                learn more about upcoming tech every day.
-              </p>
-              <a href="#portfolio" class="btn px-3 mt-3">My Work</a>
-            </div>
+  <!-- about section start -->
+  <section class="about py-5" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">About Me</h2>
           </div>
         </div>
       </div>
-    </section>
-    <!-- home section end -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">
+              I'm a junior developer looking to progress my skills
+            </h3>
+            <p class="text-muted">
+              My experinece is primarily self-taught and an 18 months apprenticeship
+              done recently at Which? and facilitated by Makers Academy in London.
+            </p>
 
-    <!-- about section start -->
-    <section class="about py-5" id="about">
-      <div class="container-lg py-4">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h2 class="fw-bold mb-5">About Me</h2>
-            </div>
+            <p class="text-muted">
+              My previous background is in the Tourism Industry within the
+              corporate environment which was followed by working for two
+              years in Tech Support role and then progressed to a Junior
+              Software Engineer role.
+            </p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="about-text">
-              <h3 class="fs-4 mb-3">
-                I'm a junior developer looking to progress my skills
-              </h3>
-              <p class="text-muted">
-                My experinece is primarily self-taught and an 18 months apprenticeship 
-                done recently at Which? and facilitated by Makers Academy in London. 
-              </p>
-
-              <p class="text-muted">
-                My previous background is in the Tourism Industry within the
-                corporate environment which was followed by working for two
-                years in Tech Support role and then progressed to a Junior
-                Software Engineer role.
-              </p>
-            </div>
-            <!-- <div class="row text-center text-uppercase my-3">
+          <!-- <div class="row text-center text-uppercase my-3">
             <div class="col-sm-4">
               <div class="fact-item">
                 <h4 class="fs-1 fw-bold">100</h4>
@@ -151,621 +120,520 @@
               </div>
             </div>
           </div> -->
-            <div class="row">
-              <div class="col-lg-12 d-flex align-items-center">
-                <a href="CV-AlexBuzea.docx" class="btn px-3 me-5">
-                  Download CV
-                </a>
-                <div class="social-links">
-                  <a href="https://fb.me/AlexBuzeaDev" class="text-dark me-2"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a
-                    href="https://www.linkedin.com/in/alexbuzea/"
-                    class="text-dark me-2"
-                    ><i class="fab fa-linkedin"></i
-                  ></a>
-                </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="CV-AlexBuzea.docx" class="btn px-3 me-5">
+                Download CV
+              </a>
+              <div class="social-links">
+                <a href="https://fb.me/AlexBuzeaDev" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/alexbuzea/" class="text-dark me-2"><i
+                    class="fab fa-linkedin"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mt-5 mt-md-0">
-            <div class="skill-item mb-4">
-              <h3 class="fs-6">Html</h3>
-              <div class="progress" style="height: 5px">
-                <div
-                  class="progress-bar bg-purple"
-                  role="progressbar"
-                  style="width: 85%"
-                  aria-valuenow="85"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Html</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-purple" role="progressbar" style="width: 85%" aria-valuenow="85"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="skill-item mb-4">
-              <h3 class="fs-6">CSS/Bootstrap</h3>
-              <div class="progress" style="height: 5px">
-                <div
-                  class="progress-bar bg-purple"
-                  role="progressbar"
-                  style="width: 75%"
-                  aria-valuenow="85"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">CSS/Bootstrap</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-purple" role="progressbar" style="width: 75%" aria-valuenow="85"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="skill-item mb-4">
-              <h3 class="fs-6">Javascript</h3>
-              <div class="progress" style="height: 5px">
-                <div
-                  class="progress-bar bg-purple"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Javascript</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-purple" role="progressbar" style="width: 80%" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="skill-item mb-4">
-              <h3 class="fs-6">Typescript</h3>
-              <div class="progress" style="height: 5px">
-                <div
-                  class="progress-bar bg-purple"
-                  role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="30"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Typescript</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-purple" role="progressbar" style="width: 65%" aria-valuenow="30"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="skill-item mb-4">
-              <h3 class="fs-6">React</h3>
-              <div class="progress" style="height: 5px">
-                <div
-                  class="progress-bar bg-purple"
-                  role="progressbar"
-                  style="width: 60%"
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">React</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-purple" role="progressbar" style="width: 60%" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="skill-item mb-4">
-              <h3 class="fs-6">Node Express</h3>
-              <div class="progress" style="height: 5px">
-                <div
-                  class="progress-bar bg-purple"
-                  role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Node Express</h3>
+            <div class="progress" style="height: 5px">
+              <div class="progress-bar bg-purple" role="progressbar" style="width: 70%" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- about section end -->
+    </div>
+  </section>
+  <!-- about section end -->
 
-    <!-- service section start -->
-    <section class="services py-5" id="services">
-      <div class="container-lg py-4">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h2 class="fw-bold mb-5">What I do</h2>
-            </div>
+  <!-- service section start -->
+  <section class="services py-5" id="services">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">What I do</h2>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="service-item shadow-sm p-4 rounded bg-white">
-              <div class="icon my-3 text-purple fs-2">
-                <i class="fas fa-code"></i>
-              </div>
-              <h3 class="fs-5 py-2">Web Development</h3>
-              <p class="text-muted">
-                Following best practices and guidance I will aim to build
-                responsive mobile-first applications allowing for a better user
-                experience. I am also constantly learning and looking for new
-                ways of doing things to benefit the end user.
-              </p>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-purple fs-2">
+              <i class="fas fa-code"></i>
             </div>
+            <h3 class="fs-5 py-2">Web Development</h3>
+            <p class="text-muted">
+              Following best practices and guidance I will aim to build
+              responsive mobile-first applications allowing for a better user
+              experience. I am also constantly learning and looking for new
+              ways of doing things to benefit the end user.
+            </p>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="service-item shadow-sm p-4 rounded bg-white">
-              <div class="icon my-3 text-purple fs-2">
-                <i class="fas fa-lightbulb"></i>
-              </div>
-              <h3 class="fs-5 py-2">Web Design</h3>
-              <p class="text-muted">
-                I will design websites as user friendly as possible without
-                compromising on aesthetics. I believe a well designed website
-                will make the difference between a professional looking one and
-                amateur one which will affect that business conversion rates.
-              </p>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-purple fs-2">
+              <i class="fas fa-lightbulb"></i>
             </div>
+            <h3 class="fs-5 py-2">Web Design</h3>
+            <p class="text-muted">
+              I will design websites as user friendly as possible without
+              compromising on aesthetics. I believe a well designed website
+              will make the difference between a professional looking one and
+              amateur one which will affect that business conversion rates.
+            </p>
           </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="service-item shadow-sm p-4 rounded bg-white">
-              <div class="icon my-3 text-purple fs-2">
-                <i class="fas fa-image"></i>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="service-item shadow-sm p-4 rounded bg-white">
+            <div class="icon my-3 text-purple fs-2">
+              <i class="fas fa-image"></i>
+            </div>
+            <h3 class="fs-5 py-2">SEO</h3>
+            <p class="text-muted">
+              I have experience with Search Engine Optimisation (SEO) without
+              having to pay for Google ads but instead build an organic SEO
+              which will obtain a high ranking on search engine results
+              without paying for anything else.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- service section end -->
+
+  <!-- portofolio section start -->
+  <section class="portfolio py-5" id="portfolio">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Latest Works</h2>
+          </div>
+        </div>
+      </div>
+      <p><small>Please keep in mind some of the apps might take a few minutes to load due to the servers being on the
+          free tier and going to sleep after a period of inactivity.</small></p>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/TrustedTraders.PNG" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">Trusted Traders </h3>
+            <p><small>(React, Node Express, Typescript, PostgreSQL, Vitest, TanStack Query, Prisma ORM,
+                Bootstrap)</small></p>
+            <p class="mb-4">
+              <a href="https://trustedtraders-rn1m.onrender.com/" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/TrekTales.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">TrekTales </h3>
+            <p><small>(Node Express, Javascript, MongoDB, Mongoose, Bootstrap)</small></p>
+            <p class="mb-4">
+              <a href="https://trektales.onrender.com/" class="text-purple text-decoration-none" target="_blank"
+                rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/SpartanGym.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">Spartan Gym </h3>
+            <p><small>(HTML & Bootstrap)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/spartan-gym" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/SigmaIT.PNG" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">Sigma IT</h3>
+            <p><small>(HTML & Bootstrap)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/SigmaRepairs" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/AutoCentre.PNG" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">Auto Centre</h3>
+            <p><small>(HTML & Bootstrap)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/AutoCentre" class="text-purple text-decoration-none" target="_blank"
+                rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/BlogList.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">Blog List App </h3>
+            <p><small>(React)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/react_intro_project" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/ToDoList.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">
+              To do list
+            </h3>
+            <p><small>(React & Material UI)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/react_simple_to_do" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/InvoiceTracker.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">
+              Invoice tracker
+            </h3>
+            <p><small>(Typescript)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/typescript_to_do_code" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/countdown.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">
+              Countdown App
+            </h3>
+            <p><small>(React)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/Countdown" class="text-purple text-decoration-none" target="_blank"
+                rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/investment-calculator.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">
+              Investment Return Calculator
+            </h3>
+            <p><small>(React)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/Investment-app" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/project-management.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">
+              Project Management App
+            </h3>
+            <p><small>(React)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/Project-management-demo" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/tic-tac-toe.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">
+              Tic Tac Toe
+            </h3>
+            <p><small>(React)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/Tic_Tac_Toe" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portofolio-item">
+            <img src="img/portfolio/travel-picker.png" class="w-100 img-thumbnail" alt="portofolio item" />
+            <h3 class="text-capitalize fs-5 my-2">
+              Travel Picker
+            </h3>
+            <p><small>(React)</small></p>
+            <p class="mb-4">
+              <a href="https://github.com/AlexBuzea/Travel-picker" class="text-purple text-decoration-none"
+                target="_blank" rel="noopener noreferrer">Live demo</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portofolio section end -->
+
+  <!-- freelancer available section start -->
+  <section class="freelancer-available bg-purple py-5">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">Do you have any project ?</p>
+          <h2 class="fs-1 text-white mb-4">
+            I'm Available for Freelancer Projects
+          </h2>
+          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- freelancer available section end -->
+
+  <!-- recommendations section start -->
+  <section class="recommendations py-5" id="recommendations">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Recommendations</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+          <div id="carousel1" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-primary"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button class="bg-primary" type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button class="bg-primary" type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner p-1">
+              <!-- testi item start -->
+              <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="img/testimonial/Angie.jfif" class="img-thumbnail rounded-circle" alt="author image" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Angie Dickinson</h3>
+                    <p class="text-muted m-0">
+                      Senior Marketing and Communications Manager at Growth
+                      Company
+                    </p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Alex has attention to detail, he brings fresh ideas to every
+                  project, and is wonderfully pleasant and courteous. He
+                  tailors every client's needs to the maximum and no task is
+                  ever too large. I would recommend Alex for any sales and
+                  marketing role and recommend him to future clients for an
+                  exceptionally high quality service.
+                </p>
+                <div class="rating text-purple">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
               </div>
-              <h3 class="fs-5 py-2">SEO</h3>
-              <p class="text-muted">
-                I have experience with Search Engine Optimisation (SEO) without
-                having to pay for Google ads but instead build an organic SEO
-                which will obtain a high ranking on search engine results
-                without paying for anything else.
-              </p>
+              <!-- testi item end -->
+              <!-- testi item start -->
+              <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="img/testimonial/Lisa.jfif" class="img-thumbnail rounded-circle" alt="author image" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Lisa Owen</h3>
+                    <p class="text-muted m-0">Meetings and Events Manager</p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  Alex is a professional, enthusiastic and dedicated team
+                  player. It was a pleasure working with Alex for a couple of
+                  years while at Marketing Manchester's Convention Bureau,
+                  he's conscientious and courteous with clients and members;
+                  easy to communicate with and fully understands the needs of
+                  the business and service delivery. I enjoyed working with
+                  Alex, he is an asset and great addition to any team he works
+                  in.
+                </p>
+                <div class="rating text-purple">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- testi item end -->
+              <!-- testi item start -->
+              <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                  <img src="img/testimonial/Emma.jfif" class="img-thumbnail rounded-circle" alt="author image" />
+                  <div class="author ms-3">
+                    <h3 class="fs-6 mb-1">Emma Robinson</h3>
+                    <p class="text-muted m-0">
+                      Conference & Events Business Development
+                    </p>
+                  </div>
+                </div>
+                <p class="text-muted mt-3">
+                  I had the pleasure of working with Alex at Marketing
+                  Manchester. He is a friendly and conscientious team member
+                  with great integrity and a real passion for his work. He is
+                  keen to learn with an inquisitive mind; and has great
+                  customer service skills with a proven ability to build
+                  relationships and manage key accounts. Alex would be a real
+                  asset to any team he works in.
+                </p>
+                <div class="rating text-purple">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- testi item end -->
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- service section end -->
+    </div>
+  </section>
+  <!-- testimonials section end -->
 
-    <!-- portofolio section start -->
-    <section class="portfolio py-5" id="portfolio">
-      <div class="container-lg py-4">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h2 class="fw-bold mb-5">Latest Works</h2>
-            </div>
-          </div>
-        </div>
-        <p><small>Please keep in mind some of the apps might take a few minutes to load due to the servers being on the free tier and going to sleep after a period of inactivity.</small></p>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/TrustedTraders.PNG"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">Trusted Traders </h3>
-              <p><small>(React, Node Express, Typescript, PostgreSQL, Vitest, TanStack Query, Prisma ORM, Bootstrap)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://trustedtraders-rn1m.onrender.com/"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/TrekTales.png"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">TrekTales </h3>
-              <p><small>(Node Express, Javascript, MongoDB, Mongoose, Bootstrap)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://trektales.onrender.com/"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/SpartanGym.png"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">Spartan Gym </h3>
-              <p><small>(HTML & Bootstrap)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://github.com/AlexBuzea/spartan-gym"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/SigmaIT.PNG"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">Sigma IT</h3>
-              <p><small>(HTML & Bootstrap)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://github.com/AlexBuzea/SigmaRepairs"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/AutoCentre.PNG"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">Auto Centre</h3>
-              <p><small>(HTML & Bootstrap)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://github.com/AlexBuzea/AutoCentre"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/BlogList.png"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">Blog List App </h3>
-              <p><small>(React)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://github.com/AlexBuzea/react_intro_project"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/ToDoList.png"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">
-                To do list
-              </h3>
-              <p><small>(React & Material UI)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://github.com/AlexBuzea/react_simple_to_do"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="portofolio-item">
-              <img
-                src="img/portfolio/InvoiceTracker.png"
-                class="w-100 img-thumbnail"
-                alt="portofolio item"
-              />
-              <h3 class="text-capitalize fs-5 my-2">
-                Invoice tracker 
-              </h3>
-              <p><small>(Typescript)</small></p>
-              <p class="mb-4">
-                <a
-                  href="https://github.com/AlexBuzea/typescript_to_do_code"
-                  class="text-purple text-decoration-none"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Live demo</a
-                >
-              </p>
-            </div>
+  <!-- contact section start -->
+  <section class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Contact Me</h2>
           </div>
         </div>
       </div>
-    </section>
-    <!-- portofolio section end -->
-
-    <!-- freelancer available section start -->
-    <section class="freelancer-available bg-purple py-5">
-      <div class="container-lg py-4">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <p class="text-light fs-5">Do you have any project ?</p>
-            <h2 class="fs-1 text-white mb-4">
-              I'm Available for Freelancer Projects
-            </h2>
-            <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-purple">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Email</h3>
+              <p class="text-muted m-0">alex.buzea.dev@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item d-flex mb-3">
+            <div class="icon fs-4 text-purple">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="text ms-3">
+              <h3 class="fs-5">Location</h3>
+              <p class="text-muted m-0">London, United Kingdom</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="contact-form">
+            <form action="https://formsubmit.co/94aadd32f820063e15a4d7b65b0d66e9" method="POST">
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Your Name"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm" name="Name" id="" />
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <input type="text" placeholder="Your Email"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm" name="Email" id="" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm"
+                    name="Subject" id="" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <textarea rows="5" placeholder="Your Message"
+                    class="form-control form-control-lg fs-6 border-0 shadow-sm" name="Message" id=""></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button type="submit" class="btn px-3">Send Message</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </section>
-    <!-- freelancer available section end -->
+    </div>
+  </section>
+  <!-- contact section end -->
 
-    <!-- recommendations section start -->
-    <section class="recommendations py-5" id="recommendations">
-      <div class="container-lg py-4">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h2 class="fw-bold mb-5">Recommendations</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8 col-xl-7">
-            <div id="carousel1" class="carousel slide" data-bs-ride="true">
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carousel1"
-                  data-bs-slide-to="0"
-                  class="active bg-primary"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  class="bg-primary"
-                  type="button"
-                  data-bs-target="#carousel1"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  class="bg-primary"
-                  type="button"
-                  data-bs-target="#carousel1"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner p-1">
-                <!-- testi item start -->
-                <div
-                  class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5"
-                >
-                  <div class="testi-author-info d-flex align-items-center">
-                    <img
-                      src="img/testimonial/Angie.jfif"
-                      class="img-thumbnail rounded-circle"
-                      alt="author image"
-                    />
-                    <div class="author ms-3">
-                      <h3 class="fs-6 mb-1">Angie Dickinson</h3>
-                      <p class="text-muted m-0">
-                        Senior Marketing and Communications Manager at Growth
-                        Company
-                      </p>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3">
-                    Alex has attention to detail, he brings fresh ideas to every
-                    project, and is wonderfully pleasant and courteous. He
-                    tailors every client's needs to the maximum and no task is
-                    ever too large. I would recommend Alex for any sales and
-                    marketing role and recommend him to future clients for an
-                    exceptionally high quality service.
-                  </p>
-                  <div class="rating text-purple">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-                <!-- testi item end -->
-                <!-- testi item start -->
-                <div
-                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"
-                >
-                  <div class="testi-author-info d-flex align-items-center">
-                    <img
-                      src="img/testimonial/Lisa.jfif"
-                      class="img-thumbnail rounded-circle"
-                      alt="author image"
-                    />
-                    <div class="author ms-3">
-                      <h3 class="fs-6 mb-1">Lisa Owen</h3>
-                      <p class="text-muted m-0">Meetings and Events Manager</p>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3">
-                    Alex is a professional, enthusiastic and dedicated team
-                    player. It was a pleasure working with Alex for a couple of
-                    years while at Marketing Manchester's Convention Bureau,
-                    he's conscientious and courteous with clients and members;
-                    easy to communicate with and fully understands the needs of
-                    the business and service delivery. I enjoyed working with
-                    Alex, he is an asset and great addition to any team he works
-                    in.
-                  </p>
-                  <div class="rating text-purple">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-                <!-- testi item end -->
-                <!-- testi item start -->
-                <div
-                  class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5"
-                >
-                  <div class="testi-author-info d-flex align-items-center">
-                    <img
-                      src="img/testimonial/Emma.jfif"
-                      class="img-thumbnail rounded-circle"
-                      alt="author image"
-                    />
-                    <div class="author ms-3">
-                      <h3 class="fs-6 mb-1">Emma Robinson</h3>
-                      <p class="text-muted m-0">
-                        Conference & Events Business Development
-                      </p>
-                    </div>
-                  </div>
-                  <p class="text-muted mt-3">
-                    I had the pleasure of working with Alex at Marketing
-                    Manchester. He is a friendly and conscientious team member
-                    with great integrity and a real passion for his work. He is
-                    keen to learn with an inquisitive mind; and has great
-                    customer service skills with a proven ability to build
-                    relationships and manage key accounts. Alex would be a real
-                    asset to any team he works in.
-                  </p>
-                  <div class="rating text-purple">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </div>
-                </div>
-                <!-- testi item end -->
-              </div>
-            </div>
-          </div>
+  <!-- footer start -->
+  <footer class="footer border-top py-4">
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="m-0 text-center text-muted">&copy; 2025 Alex Buzea</p>
         </div>
       </div>
-    </section>
-    <!-- testimonials section end -->
+    </div>
+  </footer>
+  <!-- footer end -->
 
-    <!-- contact section start -->
-    <section class="contact py-5" id="contact">
-      <div class="container-lg py-4">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h2 class="fw-bold mb-5">Contact Me</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-5">
-            <div class="contact-item d-flex mb-3">
-              <div class="icon fs-4 text-purple">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="text ms-3">
-                <h3 class="fs-5">Email</h3>
-                <p class="text-muted m-0">alex.buzea.dev@gmail.com</p>
-              </div>
-            </div>
-            <div class="contact-item d-flex mb-3">
-              <div class="icon fs-4 text-purple">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="text ms-3">
-                <h3 class="fs-5">Location</h3>
-                <p class="text-muted m-0">London, United Kingdom</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-7">
-            <div class="contact-form">
-              <form
-                action="https://formsubmit.co/94aadd32f820063e15a4d7b65b0d66e9"
-                method="POST"
-              >
-                <div class="row">
-                  <div class="col-lg-6 mb-4">
-                    <input
-                      type="text"
-                      placeholder="Your Name"
-                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
-                      name="Name"
-                      id=""
-                    />
-                  </div>
-                  <div class="col-lg-6 mb-4">
-                    <input
-                      type="text"
-                      placeholder="Your Email"
-                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
-                      name="Email"
-                      id=""
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 mb-4">
-                    <input
-                      type="text"
-                      placeholder="Subject"
-                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
-                      name="Subject"
-                      id=""
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 mb-4">
-                    <textarea
-                      rows="5"
-                      placeholder="Your Message"
-                      class="form-control form-control-lg fs-6 border-0 shadow-sm"
-                      name="Message"
-                      id=""
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12">
-                    <button type="submit" class="btn px-3">Send Message</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- contact section end -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
-    <!-- footer start -->
-    <footer class="footer border-top py-4">
-      <div class="container-lg">
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="m-0 text-center text-muted">&copy; 2022 Alex Buzea</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer end -->
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
 </html>
